@@ -1,0 +1,27 @@
+CHATBOT Quick start:
+
+Please type the following commands to install and run the application
+
+-Extract the file:		gtar xvzf Chat_V.tar.gz.
+-Install the application:	make		
+-Run the server			./bin/server 7777      (port # has to be bigger than 2000)
+-Run the application		./bin/chat zuma 7777   (same server and same port)
+
+
+
+Register	-Enter data in all the fields to create an account
+
+Log In		-enter Username and Password and press Log In
+		For professor Doemer, username is "doemer", password is "123456".
+		For professor QV, username is "QV", password is "123456".
+
+Home Page	-Press any contact to open chat.
+		Our team account is "chatbot".
+		-Press “X” to delete contact.
+		-Press top right button to see friends requests
+		-Green contacts are online, red are offline.
+		-Press lower right button to add friend, “Log Off” to exit or “Settings” to change settings
+		
+Chat		-Type text and press “Send”
+		-Press home button to return to home page
+

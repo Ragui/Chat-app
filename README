@@ -1,0 +1,53 @@
+Author: BitBot software developers from UCI.
+
+This is the latest version, version 1.0, of our chat application "ChatBot".
+
+To extract the file, type gtar xvzf Chat_V1.0_src.tar.gz.
+
+To install, please type make. 
+To start the application, please type ./bin/chat zuma 7777.
+To run the server, type ./bin/server 7777.
+
+Makefile:	-To generate the server and chat executables, type make.
+		-To clean files, type make clean.
+		-To test, type make test.
+		-To test gui, type test-gui.
+		-To test communication, type test-comm.
+		Sometimes you need to change the port number or/and server host in Makefile, 
+			if the port is taken or the host is not working.
+
+
+Features:   1- LOG IN: 	Press "log in", after entering username and password, to login to your account.
+			Press "New user" to go to register page.
+                    	Press "Forget password?" to go to a page where is possible to recover the password.
+          2- REGISTER:	Press "submit", after entering all required data, to create new account.
+                        You can go to this page by clicking New user in the login page.
+         3- HOME PAGE:  Press "your friend's name" to chat with him/her.
+			Press "Log off" to log off, and go to login page.
+			Press "Settings" to go to the settings page.
+			Press "X" to delete a friend.
+			Press "Friend request Icon", will only show if you have friends requests, to go to friend requests page.
+			Press "Add friend Icon" to go to add friend Page.
+			Friends who are online are displayed with green buttons, while offline friends are displayed in red. 
+			Each friend can be deleted pressing the x next to it.
+   4- FRIEND REQUESTS:	Press "Accept" or "Decline" to accept or decline a friend request.
+			Press "Home page Icon" to go to home page.
+			The friends requests button shows number of requests pending and directs to a page where it is possible
+			to accept or decline the requests.
+              5- CHAT:  Press "Send" to send a message.
+			Press "Home page Icon" to go to home page.
+        6- ADD FRIEND:  Press "search", after entering a username, to display possible matches.
+			Press "+" to send a friend request, if the username was found. 
+          7- SETTINGS:  Press "Edit" to reset your password.
+    8- RESET_PASSWORD:  Press "submit", after entering required inputs, to reset password.
+			Press "Return to Settings" to go back to settings page.
+  9- RECOVER_PASSWORD:  Press "Submit", after entering required inputs, to get your password back.
+
+Status: 		All features are implemented and working.
+			We implemented 4 extra features: 1- Recover password
+							 2- Friend requests 
+							 3- Offline chat (messages will be recived when logged in)
+							 4- Reset password
+                        All our documents are up to date.
+		
+This version is released on Monday March 19, 2018. 
