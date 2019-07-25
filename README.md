@@ -1,2 +1,5 @@
 # Chat-app
-This is a chat application implemented in C.
+This is a chat application designed to connect people together. The app includes the client side and the server side. 
+The client side consists of a sign up, log in, home, and chat pages. Each user needs to create an account first. Then, he/she can log in and go to the home page. In the home page, you can check your friends list, add new friends, search for friends, start a conversation with a friend, check your friend requests, update your settings, or log out. The chat page will allow you to have a conversation with a friend and you can go back to the home page when you are done. 
+The server side is responsible for connecting different users. Any user request is sent to server which detects the type of request and send a response accordingly. The type of requests can be sign up, log in, check online friends, check my new messages, send a text to a friend, send a friend request, log out, and many more. 
+The app is implemented in C using socket programming to connect the client and server, and GTK to implement the GUI. 
